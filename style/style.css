@@ -15,14 +15,12 @@ body{
   .navbar{
     background-color: #181818;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
   }
   #main-logo{
     color: azure;
     font-size: 40px;
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
   }
   .navbar-left{
     height: 80px;
@@ -92,5 +90,57 @@ body{
     border: 1px solid white;
     background-color: white;
     padding: 7px 9px;
+  }
+  .bottom-body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+  }
+  .offers{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+  }
+  .offer-images{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  .banner{
+    margin-top: 80px;
+    position: relative;
+    color: white;
+  }
+  .banner-image img{
+    width: 100%;
+  }
+  .banner-text{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    line-height: 15px;
+  }
+  .banner-text h1{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .banner-text h2{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .banner-buttons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+    gap: 30px;
+
+  }
+  .buttons-bnr{
+    border: 1px solid rgb(17, 1, 1);
+    background-color: white;
+    padding: 7px 9px;
+    
   }
   
