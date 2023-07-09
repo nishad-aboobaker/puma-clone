@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+  .Ads_container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    text-align: center;
+    background-color: #ae946d;
+    color: white;
+    font-size: 13px;
+  }
+  .navbar{
+    background-color: #181818;
+    height: 80px;
+  }
+  #main-logo{
+    color: azure;
+    font-size: 40px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-left{
+    height: 80px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+  #search-logo{
+    color: azure;
+    font-size: 25px;
+  }
+  .navbar-right{
+    height: 80px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+  .search{
+    padding: 7px 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: .5px solid white;
+  }
+  .body{
+    position: relative;
+    display: flex;
+    color: white;
+  }
+  .body img{
+    width: 100%;
+  }
+  .body-right{
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 1000px;
+    justify-content: center;
+  }
+  .body h1{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .body h2{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .body-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+  .buttons{
+    border: 1px solid white;
+    background-color: white;
+    padding: 7px 9px;
+  }
+  
